@@ -155,20 +155,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String timeToString (int hour, int minute){
-        String hourToString, minutetoString;
+        String hourToTo, minuteToTo;
         if (hour<10){
-            hourToString= "0"+hour;
+            hourToTo= "0"+hour;
         }
         else{
-            hourToString = ""+hour;
+            hourToTo = ""+hour;
         }
         if (minute<10){
-            minutetoString = "0"+minute;
+            minuteToTo = "0"+minute;
         }
         else{
-            minutetoString = ""+minute;
+            minuteToTo = ""+minute;
         }
-        String time = hourToString+":"+minutetoString;
-        return time;
+        
+        return hourToString+":"+minutetoString;
     }
 }
